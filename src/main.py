@@ -13,4 +13,4 @@ else:
 # mostrar resultado en consola
 if "GITHUB_OUTPUT" in os. environ :
         with open(os. environ[ "GITHUB_OUTPUT"], "a") as f :    
-             print("{0}=(1}". format( 'result',num+3),file=f)
+             print("{0}={1}". format( 'result',num+3),file=f)
