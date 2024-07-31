@@ -14,4 +14,4 @@ jobs:
         with:
           num: 20
       - name: Print result
-        run: echo "${ steps.get_value.outputs.result}}"
+        run: echo "${{ steps.get_value.outputs.result}}"
